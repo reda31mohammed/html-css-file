@@ -503,6 +503,8 @@ header .links .icon:hover span:nth-child(2) {
     font-size: 35px;
     color: var(--main-color);
     text-decoration: none;
+    text-wrap: wrap;
+    width: fit-content;
 }
 
 .contact .info .social {
@@ -523,9 +525,12 @@ header .links .icon:hover span:nth-child(2) {
 
 @media (max-width:500px) {
 
-    .contact .info h1,
-    .contact .info .link {
+    .contact .info h1 {
         font-size: 25px;
+    }
+
+    .contact .info .link {
+        font-size: 18px;
     }
 }
 
