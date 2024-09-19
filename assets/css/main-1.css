@@ -521,7 +521,7 @@ header .links .icon:hover span:nth-child(2) {
     margin-left: 5px;
 }
 
-@media (max-width:767px) {
+@media (max-width:500px) {
 
     .contact .info h1,
     .contact .info .link {
