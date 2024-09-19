@@ -503,8 +503,6 @@ header .links .icon:hover span:nth-child(2) {
     font-size: 35px;
     color: var(--main-color);
     text-decoration: none;
-    text-wrap: wrap;
-    width: fit-content;
 }
 
 .contact .info .social {
